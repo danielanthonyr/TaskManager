@@ -13,6 +13,9 @@
 		94AC44BD2834785900DDD183 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AC44BC2834785900DDD183 /* Preview Assets.xcassets */; };
 		94AC44BF2834785900DDD183 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC44BE2834785900DDD183 /* Persistence.swift */; };
 		94AC44C22834785900DDD183 /* TaskManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94AC44C02834785900DDD183 /* TaskManager.xcdatamodeld */; };
+		94AC44D0283479B300DDD183 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC44CF283479B300DDD183 /* Home.swift */; };
+		94AC44D228347C0B00DDD183 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC44D128347C0B00DDD183 /* TaskViewModel.swift */; };
+		94AC44D62834858B00DDD183 /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC44D52834858B00DDD183 /* AddNewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		94AC44BC2834785900DDD183 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94AC44BE2834785900DDD183 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		94AC44C12834785900DDD183 /* TaskManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskManager.xcdatamodel; sourceTree = "<group>"; };
+		94AC44CF283479B300DDD183 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		94AC44D128347C0B00DDD183 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		94AC44D52834858B00DDD183 /* AddNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 		94AC44B42834785700DDD183 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				94AC44CA283478EF00DDD183 /* Screens */,
+				94AC44C9283478EA00DDD183 /* Helpers */,
+				94AC44C8283478E400DDD183 /* Services */,
 				94AC44B52834785700DDD183 /* TaskManagerApp.swift */,
 				94AC44B72834785700DDD183 /* ContentView.swift */,
 				94AC44B92834785900DDD183 /* Assets.xcassets */,
@@ -71,6 +80,46 @@
 				94AC44BC2834785900DDD183 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94AC44C8283478E400DDD183 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94AC44C9283478EA00DDD183 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		94AC44CA283478EF00DDD183 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				94AC44CE283479A300DDD183 /* ViewModel */,
+				94AC44CD2834799D00DDD183 /* View */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		94AC44CD2834799D00DDD183 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94AC44CF283479B300DDD183 /* Home.swift */,
+				94AC44D52834858B00DDD183 /* AddNewTask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94AC44CE283479A300DDD183 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				94AC44D128347C0B00DDD183 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94AC44BF2834785900DDD183 /* Persistence.swift in Sources */,
+				94AC44D228347C0B00DDD183 /* TaskViewModel.swift in Sources */,
 				94AC44B82834785700DDD183 /* ContentView.swift in Sources */,
+				94AC44D0283479B300DDD183 /* Home.swift in Sources */,
+				94AC44D62834858B00DDD183 /* AddNewTask.swift in Sources */,
 				94AC44C22834785900DDD183 /* TaskManager.xcdatamodeld in Sources */,
 				94AC44B62834785700DDD183 /* TaskManagerApp.swift in Sources */,
 			);
